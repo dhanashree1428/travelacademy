@@ -1,0 +1,297 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#head{
+    border: 1px solid black;
+    width: 100%;
+    height: 80px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-evenly;
+
+    
+}
+#headone{
+    border: 1px solid black;
+    width: 30%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    border: none;
+}
+#headtwo{
+    border: 1px solid black;
+    width: 40%;
+    height: 60px;
+    display: flex;
+    justify-content:space-evenly;
+    align-content: center;
+    align-items:center;
+    border: none;
+}
+.child{
+    border: 1px solid black;
+    color:black;
+    border: none;
+
+}
+.logo{
+    border: 1px hidden  black;
+  width: 50px;
+    height: 50px;
+    font-size: 60px;
+   }
+   #t{
+    width: 90px;
+    height: 70px;
+   }
+.name{
+    width: 300px;
+    height: 100px;
+    text-transform: capitalize;
+    font-size: xx-large;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.aboutus{
+    width: 10;
+    height: 30px;
+    text-transform: capitalize;
+    font-size: x-large;
+    align-content: center;
+    
+}
+.contactus{
+    width: 150px;
+    height: 30px;
+    text-transform: capitalize;
+    font-size: large;
+
+}
+#image{
+    width: 100%;
+    height: 100%;
+    background-image: url(images\ \(1\).jfif);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+/*2nd CSS*/
+#bg{
+    border: 1px solid black;
+    width: 200 px;
+    height: 200 px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+#webname{
+    color: black;
+    text-transform: capitalize;
+    font-size: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*3rd css*/
+#maincard{
+    border: 1px solid black;
+    width: 100%;
+   height:  400px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items:center;
+}
+/*==========================*/
+#subcardone{
+    border: 1px solid black;
+    width: 300px;
+   height:  350px;  
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center; 
+}
+#imgone{
+    width: 300px;
+    height: 306px;
+}
+#topic1{
+    border: 1px solid none;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size:larger;
+}
+#subcardtwo{
+    border: 1px solid black;
+    width: 300px;
+   height:  350px;   
+}
+#imgtwo{
+    width: 300px;
+    height: 300px;
+}
+#topic2{
+    border: 1px solid none;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size:larger;
+}
+#subcardthree{
+    border: 1px solid black;
+    width: 300px;
+   height:  350px;   
+}
+#imgthree{
+    width: 300px;
+    height: 300px;
+}
+#topic3{
+    border: 1px solid none;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size:larger;
+}
+/*===================================*/
+#subcardfour{
+    border: 1px solid black;
+    width: 300px;
+   height:  350px;  
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center; 
+}
+#imgfour{
+    width: 300px;
+    height: 306px;
+}
+#topic4{
+    border: 1px solid none;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size:larger;
+}
+#subcardfive{
+    border: 1px solid black;
+    width: 300px;
+   height:  350px;   
+}
+#imgfive{
+    width: 300px;
+    height: 300px;
+}
+#topic5{
+    border: 1px solid none;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size:larger;
+}
+#subcardsix{
+    border: 1px solid black;
+    width: 300px;
+   height:  350px;   
+}
+#imgsix{
+    width: 300px;
+    height: 300px;
+}
+#topic6{
+    border: 1px solid none;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size:larger;
+}
+/* ============================ */
+#d{
+    border: 1px none ;
+    display: flex;
+    background-color: gainsboro;
+}
+#one{
+    border: 1px solid black;
+    width: 25%;
+    height: 300px;
+    font-size:x-large;
+
+   
+}
+#two{
+    border: 1px solid black;
+    width: 25%;
+    height: 300px;
+    font-size: x-large;
+    text-align: center;
+    
+
+    }
+#three{
+    border: 1px solid black;
+    width: 25%;
+    height: 300px;
+    
+}
+#four{
+    border: 1px solid black;
+    width: 25%;
+    height: 300px;
+    font-size: x-large;
+    }
+.pay{
+    border: 1px solid black;
+    width: 120px;
+    height: 60px;
+}
+
+/*footer*/
+#f{
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#a{
+    font-size: 40px;
+}
+#b{
+    font-size: 40px;
+}
+
+#p{
+    border: 1px none;
+    width: 50px;
+    height: 20px;
+    font-size: 50px;
+}
